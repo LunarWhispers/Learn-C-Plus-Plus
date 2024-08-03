@@ -19,6 +19,7 @@ int main() {
     int total = 1;
     int NumberTotal = 0;
     while( total < 101 ){
+    //也可以写为（total <= 100）.
 
         NumberTotal += total;
         total++;
